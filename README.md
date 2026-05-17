@@ -1,68 +1,68 @@
-Customer Shopping Behavior Analysis
-Overview
+-Customer Shopping Behavior Analysis
+-Overview
 This project focuses on analyzing customer shopping behavior using Python, SQL, and Power BI. The goal of the project is to extract meaningful insights from customer purchase data by performing data cleaning, exploratory data analysis (EDA), SQL-based analysis, and interactive dashboard visualization.
 
 The project demonstrates end-to-end data analytics workflow including:
 
-Data loading and preprocessing
+1.Data loading and preprocessing
 
-Exploratory Data Analysis (EDA)
+2.Exploratory Data Analysis (EDA)
 
-SQL query execution using multiple database systems
+3.SQL query execution using multiple database systems
 
-Dashboard creation in Power BI
+4.Dashboard creation in Power BI
 
-Report and presentation preparation
+5.Report and presentation preparation
 
 This project is designed to showcase practical data analytics skills and business insight generation.
 
-Dataset
+-Dataset
 The dataset contains customer shopping behavior information such as:
 
-Customer demographics
+1.Customer demographics
 
-Product categories
+2.Product categories
 
-Purchase amounts
+3.Purchase amounts
 
-Payment methods
+4.Payment methods
 
-Discount usage
+5.Discount usage
 
-Shopping frequency
+6.Shopping frequency
 
-Gender and age details
+7.Gender and age details
 
 The dataset was analyzed to identify purchasing trends, customer patterns, and revenue insights.
 
-Tools & Technologies Used
+-Tools & Technologies Used
 Programming & Analysis
-Python
+1.Python
 
-Pandas
+2.Pandas
 
-NumPy
+3.NumPy
 
-Matplotlib
+4.Matplotlib
 
-Seaborn
+5.Seaborn
 
 Database Technologies
-PostgreSQL
+1.PostgreSQL
 
-MySQL
+2.MySQL
 
-SQL Server
+3.SQL Server
 
 Visualization & Reporting
-Power BI
+1.Power BI
 
-Gamma AI (PPT Creation)
+2.Gamma AI (PPT Creation)
 
 Development Environment
-Jupyter Notebook
+1.Jupyter Notebook
 
-VS Code
+2.VS Code
 
 Project Workflow
 1. Data Loading
@@ -132,7 +132,9 @@ Example SQL operations:
 SELECT gender, SUM(purchase_amount) AS revenue
 FROM customer
 GROUP BY gender;
-Power BI Dashboard
+
+
+-Power BI Dashboard
 An interactive Power BI dashboard was created to visualize:
 
 Total Revenue
@@ -157,7 +159,7 @@ Dynamic charts
 
 Business insights visualization
 
-Results & Insights
+-Results & Insights
 Key insights generated from the analysis include:
 
 Identification of top-performing product categories
