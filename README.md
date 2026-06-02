@@ -1,175 +1,60 @@
--Customer Shopping Behavior Analysis
--Overview
-This project focuses on analyzing customer shopping behavior using Python, SQL, and Power BI. The goal of the project is to extract meaningful insights from customer purchase data by performing data cleaning, exploratory data analysis (EDA), SQL-based analysis, and interactive dashboard visualization.
+## 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
 
-The project demonstrates end-to-end data analytics workflow including:
+This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-1.Data loading and preprocessing
+## 📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-2.Exploratory Data Analysis (EDA)
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-3.SQL query execution using multiple database systems
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-4.Dashboard creation in Power BI
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-5.Report and presentation preparation
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+<img width="4872" height="2656" alt="image" src="https://github.com/user-attachments/assets/9a09d2e1-a081-4fdd-9217-9c10b0f345af" />
 
-This project is designed to showcase practical data analytics skills and business insight generation.
+## 🛠️ How to Use This Project
+### 1. Clone the repository
 
--Dataset
-The dataset contains customer shopping behavior information such as:
+git clone
+https://github.com/karanverma30/customer_behavior_analysis.git
+cd customer-trends-data-analysis-SQL-Python-PowerBI
 
-1.Customer demographics
+### 2. Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
-2.Product categories
+This file contains:
 
-3.Purchase amounts
+* Data Import
 
-4.Payment methods
+* Data exploration
 
-5.Discount usage
+* Data cleaning
 
-6.Shopping frequency
+* Connection to SQL Database
 
-7.Gender and age details
+### 3. Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
 
-The dataset was analyzed to identify purchasing trends, customer patterns, and revenue insights.
+* Create a database in SQL
 
--Tools & Technologies Used
-Programming & Analysis
-1.Python
+* Run Python code to load data into SQL database
 
-2.Pandas
+* Open customer_behavior_sql_queries.sql
 
-3.NumPy
+* Answer Business Questions using SQL Queries
 
-4.Matplotlib
+### 4. Connect the SQL Database to Power BI
 
-5.Seaborn
+* Open customer_behavior_dashboard.pbix
 
-Database Technologies
-1.PostgreSQL
+* Create interactive dashboard in Power BI
 
-2.MySQL
+### 5. Create Project Report and Presentation
 
-3.SQL Server
+* Create project report
 
-Visualization & Reporting
-1.Power BI
+* Build presentation deck using Gamma AI
 
-2.Gamma AI (PPT Creation)
 
-Development Environment
-1.Jupyter Notebook
-
-2.VS Code
-
-Project Workflow
-1. Data Loading
-Imported dataset using Python
-
-Loaded data into Pandas DataFrame
-
-Inspected rows, columns, and data types
-
-2. Data Cleaning
-Removed duplicate records
-
-Handled missing values
-
-Corrected inconsistent data
-
-Converted data types where required
-
-3. Exploratory Data Analysis (EDA)
-Performed analysis to understand:
-
-Customer purchase trends
-
-Revenue by gender
-
-Product category performance
-
-Discount impact on sales
-
-Shopping frequency patterns
-
-Created visualizations using:
-
-Bar Charts
-
-Pie Charts
-
-Histograms
-
-Heatmaps
-
-SQL Analysis
-The cleaned dataset was imported into:
-
-PostgreSQL
-
-MySQL
-
-SQL Server
-
-SQL queries were written to perform:
-
-Revenue analysis
-
-Customer segmentation
-
-Top-selling product analysis
-
-Average purchase calculations
-
-Discount usage insights
-
-Gender-wise spending analysis
-
-Example SQL operations:
-
-SELECT gender, SUM(purchase_amount) AS revenue
-FROM customer
-GROUP BY gender;
-
-
--Power BI Dashboard
-An interactive Power BI dashboard was created to visualize:
-
-Total Revenue
-
-Customer Distribution
-
-Product Category Performance
-
-Purchase Trends
-
-Discount Analysis
-
-Payment Method Insights
-
-Dashboard features:
-
-Interactive filters
-
-KPI cards
-
-Dynamic charts
-
-Business insights visualization
-
--Results & Insights
-Key insights generated from the analysis include:
-
-Identification of top-performing product categories
-
-Customer spending patterns by gender
-
-Impact of discounts on customer purchases
-
-Popular payment methods among customers
-
-Trends in shopping frequency and purchasing behavior
-
-The project helps businesses make data-driven decisions to improve customer engagement and sales performance.
+## 📜 License
+MIT — feel free to fork, star, and use in your portfolio.
